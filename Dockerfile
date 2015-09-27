@@ -1,5 +1,5 @@
 FROM haskell
-MAINTAINER David Parrish <daveparrish@gmail.com>
+MAINTAINER David Parrish <daveparrish@tutanota.com>
 
 # Create user to run service as 
 RUN useradd -m -s /bin/bash hakyll
