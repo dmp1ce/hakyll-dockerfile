@@ -2,4 +2,4 @@ FROM haskell
 MAINTAINER David Parrish <daveparrish@tutanota.com>
 
 # Get Hakyll installed
-RUN cabal update && cabal install hakyll
+RUN cabal update && cabal install --global hakyll
